@@ -124,7 +124,6 @@ public class reservasi{
 
     private static void riwayatTiket() {
         System.out.println("Menampilkan riwayat tiket");
-        System.out.println("Menampilkan riwayat tiket");
     }
 
     private static void batalTiket() {
