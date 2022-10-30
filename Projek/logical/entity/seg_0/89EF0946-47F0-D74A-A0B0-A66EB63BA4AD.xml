@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89EF0946-47F0-D74A-A0B0-A66EB63BA4AD" name="Pesawat">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:52:43 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="5D4C07F4-5B69-9E35-8B0C-592E2F618D23">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:52:51 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="2AB3DEA3-BD5D-13A1-D4AC-BEBA62F3FF04">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:52:57 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75084096-1BA9-3E93-841F-6DE6D01D8FFF" name="Pesawat PK">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:52:55 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D4C07F4-5B69-9E35-8B0C-592E2F618D23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

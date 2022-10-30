@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59174679-77B2-1244-BBAF-5A161DBF8103" name="PENUMPANG">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:36:13 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="86FD04F3-ABD6-754B-7451-589CF96AAD9E">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:36:38 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="4979817B-9545-2323-82EE-F5825232478F">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:37:03 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="7501F2C0-AE2F-5BFC-F493-A0D8B1CD7F87">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:40:58 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="EB0E3BA2-0AEC-2E5B-808B-06A8EE472FBF">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:41:10 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NoHP" id="63E1461A-3F33-E125-58CC-545729D029FE">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:43:01 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D465F68-4406-42EE-69E9-1BFD46A981EC" name="PENUMPANG PK">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:40:55 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86FD04F3-ABD6-754B-7451-589CF96AAD9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

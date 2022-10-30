@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="5AD58535-7D9F-DD95-F64A-B0394368C5D9">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:53:57 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="true"/>
+</engineerTo>
+<sourcePk>8A4FC892-1DCD-A2DF-61DE-2329904254BB</sourcePk>
+<targetPk>75084096-1BA9-3E93-841F-6DE6D01D8FFF</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Dari</nameOnSource>
+<nameOnTarget>Yang ditunjuk</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>393BCF1B-0416-883B-DA78-4FE385486070</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>89EF0946-47F0-D74A-A0B0-A66EB63BA4AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

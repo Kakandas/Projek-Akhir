@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B729EDD2-985D-8183-829E-580392795FFE" name="Tiket">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>393BCF1B-0416-883B-DA78-4FE385486070</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kursi" id="35587E1F-2CC6-D93E-EB3C-8B4B8E6CE8D7">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>D85FEC6D-23C6-DC9A-A430-2E3B86549FAB</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jadwal_Keberangkatan" id="F5879015-BAB6-3F58-7663-6C67216F5379">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>C8B67CC8-C2E1-5A1F-A25C-F4A22227F21A</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jadwal_Kedatangan" id="739D6614-9DE1-EC38-5158-BA5C1D3D7E75">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>15A39E29-A58E-17CE-3E56-EA4010A1E560</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PENUMPANG_ID" id="A5C17344-F79D-F0FA-613E-338A359AB5F5">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>7B371092-DFA3-BE27-E7B5-D92C46DCB4ED</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB23B20D-A062-D11F-579B-FC34B94FE2B1" referredColumn="E7BCE332-D1E6-8F20-15A6-65D6F6DFCA37"/>
+</associations>
+</Column>
+<Column name="Pesawat_Id" id="87F43D1B-C27E-62A9-E6D4-447EFE439F7C">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:55:34 UTC</createdTime>
+<generatorID>19EC56BF-3AEF-0FC3-B4F9-F4A79EACBCF6</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="204BC7F0-4B35-F511-F4AE-78AF7592AB3C" referredColumn="AF7FC869-6C36-F290-93E7-8AD39430B016"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FFB1A27-7C38-32EE-4CEB-09371C444E71" name="Tiket_PK">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>8A4FC892-1DCD-A2DF-61DE-2329904254BB</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35587E1F-2CC6-D93E-EB3C-8B4B8E6CE8D7"/>
+<colUsage columnID="F5879015-BAB6-3F58-7663-6C67216F5379"/>
+<colUsage columnID="739D6614-9DE1-EC38-5158-BA5C1D3D7E75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33968D9B-FDEB-F84E-D9D2-B381E1ECC2D6" name="Tiket_PENUMPANG_FK">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>AB4B7F54-FF6B-D474-D70F-7D0A7DCE29A2</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5C17344-F79D-F0FA-613E-338A359AB5F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB3DC441-6D96-3784-7BAC-24B63053D038" name="Tiket_Pesawat_FK">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:55:34 UTC</createdTime>
+<generatorID>5AD58535-7D9F-DD95-F64A-B0394368C5D9</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87F43D1B-C27E-62A9-E6D4-447EFE439F7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

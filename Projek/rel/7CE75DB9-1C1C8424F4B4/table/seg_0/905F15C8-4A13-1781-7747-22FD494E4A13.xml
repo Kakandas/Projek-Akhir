@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="905F15C8-4A13-1781-7747-22FD494E4A13" name="Pesawat">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>89EF0946-47F0-D74A-A0B0-A66EB63BA4AD</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="AF7FC869-6C36-F290-93E7-8AD39430B016">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>5D4C07F4-5B69-9E35-8B0C-592E2F618D23</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama" id="92F8D82A-291D-1CEE-D105-0958971BC6CF">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>2AB3DEA3-BD5D-13A1-D4AC-BEBA62F3FF04</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68DE7BC1-8883-1A5C-BF07-4C9F223516B0" name="Pesawat_PK">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>75084096-1BA9-3E93-841F-6DE6D01D8FFF</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF7FC869-6C36-F290-93E7-8AD39430B016"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

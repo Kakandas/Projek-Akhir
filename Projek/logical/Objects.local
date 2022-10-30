@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="393BCF1B-0416-883B-DA78-4FE385486070" name="Tiket" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="8144968A-EEF3-EB86-BF17-3D742798AD5E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="59174679-77B2-1244-BBAF-5A161DBF8103" name="PENUMPANG" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="8144968A-EEF3-EB86-BF17-3D742798AD5E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="89EF0946-47F0-D74A-A0B0-A66EB63BA4AD" name="Pesawat" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="8144968A-EEF3-EB86-BF17-3D742798AD5E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="5AD58535-7D9F-DD95-F64A-B0394368C5D9" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="8144968A-EEF3-EB86-BF17-3D742798AD5E" propertySourceId="393BCF1B-0416-883B-DA78-4FE385486070" propertyTargetId="89EF0946-47F0-D74A-A0B0-A66EB63BA4AD"/>
+   <object objectType="Relation" objectID="AB4B7F54-FF6B-D474-D70F-7D0A7DCE29A2" name="Penum &lt;&gt; Tiket" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="8144968A-EEF3-EB86-BF17-3D742798AD5E" propertySourceId="59174679-77B2-1244-BBAF-5A161DBF8103" propertyTargetId="393BCF1B-0416-883B-DA78-4FE385486070"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
