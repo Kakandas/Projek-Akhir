@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="204BC7F0-4B35-F511-F4AE-78AF7592AB3C" containerWithKeyObject="B729EDD2-985D-8183-829E-580392795FFE" localFKIndex="AB3DC441-6D96-3784-7BAC-24B63053D038" name="Tiket_Pesawat_FK">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:55:34 UTC</createdTime>
+<generatorID>5AD58535-7D9F-DD95-F64A-B0394368C5D9</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<referredTableLongName>Pesawat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>905F15C8-4A13-1781-7747-22FD494E4A13</referredTableID>
+<keyObject>68DE7BC1-8883-1A5C-BF07-4C9F223516B0</keyObject>
+<referredKeyID>68DE7BC1-8883-1A5C-BF07-4C9F223516B0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

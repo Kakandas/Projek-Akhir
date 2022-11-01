@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Penum &lt;&gt; Tiket" directorySegmentName="seg_0" id="AB4B7F54-FF6B-D474-D70F-7D0A7DCE29A2">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:53:27 UTC</createdTime>
+<ownerDesignName>Projek</ownerDesignName>
+<engineerTo>
+<item key="7CE75DB9-3ECD-E1ED-6F09-1C1C8424F4B4" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>6D465F68-4406-42EE-69E9-1BFD46A981EC</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Punya</nameOnSource>
+<nameOnTarget>Miliki</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>59174679-77B2-1244-BBAF-5A161DBF8103</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>393BCF1B-0416-883B-DA78-4FE385486070</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

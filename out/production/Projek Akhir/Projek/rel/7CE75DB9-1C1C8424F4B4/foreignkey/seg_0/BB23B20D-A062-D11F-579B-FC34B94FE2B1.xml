@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB23B20D-A062-D11F-579B-FC34B94FE2B1" containerWithKeyObject="B729EDD2-985D-8183-829E-580392795FFE" localFKIndex="33968D9B-FDEB-F84E-D9D2-B381E1ECC2D6" name="Tiket_PENUMPANG_FK">
+<createdBy>Fakhri Rasyad</createdBy>
+<createdTime>2022-10-28 22:54:33 UTC</createdTime>
+<generatorID>AB4B7F54-FF6B-D474-D70F-7D0A7DCE29A2</generatorID>
+<ownerDesignName>Projek</ownerDesignName>
+<referredTableLongName>PENUMPANG</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0AA83CB8-3F2C-5B92-9DBE-AFA9216D5354</referredTableID>
+<keyObject>1F07A4E6-47B1-0F10-DE90-4540A87FE873</keyObject>
+<referredKeyID>1F07A4E6-47B1-0F10-DE90-4540A87FE873</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
